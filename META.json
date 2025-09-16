@@ -1,0 +1,65 @@
+{
+  "category": "communication",
+  "created_date": "2025-09-16T00:00:00.000000",
+  "default_ports": [
+    80,
+    443,
+    3000,
+    4000
+  ],
+  "dependencies": [
+    "ruby",
+    "postgresql",
+    "redis",
+    "nodejs",
+    "yarn",
+    "nginx",
+    "certbot"
+  ],
+  "description": "Mastodon is a free and open-source decentralized social media platform that serves as an alternative to proprietary platforms like Twitter/X. It's part of the fediverse, uses the ActivityPub protocol for federation, and allows users to run their own social media instances with full control over their data and community.",
+  "difficulty_level": "advanced",
+  "documentation_url": "https://howtomgr.github.io/communication/mastodon",
+  "estimated_setup_time": "1-2 hours",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/communication/mastodon",
+  "installation_methods": [
+    "native-packages",
+    "source-installation"
+  ],
+  "last_updated": "2025-09-16T00:00:00.000000",
+  "license": "AGPL-3.0",
+  "maintenance_status": "active",
+  "name": "mastodon",
+  "repository_url": "https://github.com/howtomgr/mastodon",
+  "spec_version": "2.0",
+  "subcategory": "communication",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles"
+  ],
+  "tags": [
+    "social-media",
+    "fediverse",
+    "activitypub",
+    "decentralized",
+    "microblogging"
+  ],
+  "title": "Mastodon Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/communication/mastodon"
+}
